@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import {addTwo, addThree} from './addTwo.js';
 
 function App() {
+  // addThree(1,2,3);
+  // addTwo(1,2);
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +19,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          {addThree(1,2,3)}
+          {addTwo(1,2)}
+
         </a>
       </header>
     </div>
